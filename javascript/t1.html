@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 1</title>
+  </head>
+  <body>
+    <div>
+      <button onclick="document.getElementById('demo').innerHTML=res">
+      show date
+    </button>
+
+    <p id="demo"></p>
+    <button onclick="document.getElementById('demo2').innerHTML=Date()">
+        show date
+      </button>
+    <p id="demo2"></p>
+    </div>
+    <script>
+        const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+        var dt = new Date();
+        let res=+ dt.getDate()+"/"+month[dt.getMonth()] + "/" +dt.getFullYear() ;
+    </script>
+  </body>
+</html>
