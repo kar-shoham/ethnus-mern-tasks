@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+table * {
+    font-family: 'Karla', sans-serif;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+tr:hover {background-color: coral;}
